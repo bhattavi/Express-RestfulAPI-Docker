@@ -10,7 +10,7 @@ app.use(cors());
 
 app.set("views", path.join(__dirname, "views"));
 app.set("view engine", "ejs");
-app.use(express.static("pulic"));
+app.use(express.static("public"));
 
 
 var fs = require("fs");
