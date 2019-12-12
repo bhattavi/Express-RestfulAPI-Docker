@@ -1,11 +1,11 @@
 var express = require("express");
-var bodyParsee = require("body-parser");
+var bodyParser = require("body-parser");
 var cors = require("cors");
 var path = require("path");
 
 var app = express();
 
-app.use(bodyParsee());
+
 app.use(cors());
 
 app.set("views", path.join(__dirname, "views"));
